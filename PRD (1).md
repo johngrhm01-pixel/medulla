@@ -35,6 +35,13 @@ Repository → Observe → Understand → Reason → Act
 - AI context export
 - Engineering insights dashboard
 
+
+## Privacy and Trust Requirements
+- Users must have explicit control over what repositories, directories, and file types are indexed, with clear controls to pause, rescan, or remove indexed content.
+- Private source code must be handled transparently: the product should explain what code is read, where derived data is stored, and when any content may be sent to AI services.
+- Secrets, credentials, generated artifacts, dependency folders, and files excluded by `.gitignore` or user-defined ignore rules must be excluded from indexing, embeddings, and AI context export.
+- For the MVP, Medulla should default to local-first behavior where applicable: repository metadata, embeddings, generated docs, and analysis outputs should remain on the user's machine unless the user opts into an external integration or API-backed feature.
+
 ## Success Metrics
 - Repository indexed in <60 seconds
 - Incremental updates in <2 seconds
