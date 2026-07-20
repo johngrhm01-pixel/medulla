@@ -35,6 +35,13 @@ Repository → Observe → Understand → Reason → Act
 - AI context export
 - Engineering insights dashboard
 
+
+## AI Response Expectations
+- AI answers should be grounded in indexed repository content, including files, symbols, documentation, dependency metadata, and knowledge graph facts collected during observation and scanning.
+- Responses should cite or reference relevant repository files, symbols, docs, or generated artifacts whenever possible so users can verify the source of an answer.
+- The system should clearly distinguish known facts from inferred recommendations by labeling direct repository evidence separately from assumptions, interpretations, and suggested next steps.
+- If repository evidence is incomplete or unavailable, responses should state the limitation, explain what context is missing, and avoid presenting speculation as fact.
+
 ## Success Metrics
 - Repository indexed in <60 seconds
 - Incremental updates in <2 seconds
