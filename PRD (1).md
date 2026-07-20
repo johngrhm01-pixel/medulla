@@ -61,3 +61,29 @@ Cursor → Edits code
 
 ## Tagline
 **Every repository deserves an AI Staff Engineer.**
+
+## Dashboard Experience
+
+### Repository Health
+User goal: Quickly understand whether the repository is in a healthy, maintainable state and identify the highest-priority quality, test, security, and dependency risks before they become delivery blockers.
+
+### Architecture
+User goal: See how the repository is structured, how major components depend on each other, and where architecture drift or coupling may require attention.
+
+### Features
+User goal: Understand the product capabilities implemented in the codebase, where each feature lives, and which code paths, tests, and documentation support it.
+
+### Knowledge
+User goal: Search and browse the living project knowledge base so users can recover intent, business rules, APIs, decisions, and domain concepts without manually reading the entire repository.
+
+### Timeline
+User goal: Review how the repository has changed over time, including scans, file changes, commits, generated insights, and recommendation lifecycle events.
+
+### Insights
+User goal: Inspect AI-generated engineering observations that explain notable patterns, risks, anomalies, and opportunities discovered from repository analysis.
+
+### Recommendations
+User goal: Prioritize actionable improvements with clear rationale, expected impact, and enough context to decide whether to accept, defer, or dismiss each recommendation.
+
+### AI Chat
+User goal: Ask natural-language questions about the repository and receive grounded answers that cite relevant files, symbols, documentation, and knowledge graph context.
